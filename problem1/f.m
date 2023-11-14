@@ -15,4 +15,4 @@ function VolumeForce = f(x);
 
 X = x(:,1); % point x-coordinate
 Y = x(:,2); % point y-coorindate
-VolumeForce = 3*X.*Y;        % needs to be updated
+VolumeForce = zeros(size(x,1),1);        % needs to be updated

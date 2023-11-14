@@ -149,7 +149,7 @@ ylabel('(log) |u-u_h|_L2');
 title('loglog plot of L2-errors vs. mesh size (1/h)');
 
 figure(); hold on;
-picked = [13,14,15];
+picked = [1,2,3,4,5,6];
 ls = cell(length(picked),1); % Initialize array  with legends
 li = 1;
 for i=picked
